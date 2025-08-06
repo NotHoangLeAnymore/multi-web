@@ -1,7 +1,7 @@
 import { createStore, action, thunk, computed } from "easy-peasy";
 import api from "./api/posts";
-import posts from "./api/posts";
-import { set } from "date-fns";
+//import posts from "./api/posts";
+//import { set } from "date-fns";
 
 export default createStore({
   posts: [],
